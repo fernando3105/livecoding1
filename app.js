@@ -6,6 +6,8 @@ function bigWords(cadena, arrayCadena){
     const cadenaSalida = arrayCadena.filter(palabra => palabra.length > cadena.length)
     return cadenaSalida;
 }
+//Para la funcion bigWord al principio la estaba haciendo con array y salian datos Null
+//El feedback fue usar un filter y se corregió al momento en el liveCoding
 
 
 const myArray = ['insecto', 'bootcamp', 'mangos', 'reptil', 'mosca', 'escritorio'];
